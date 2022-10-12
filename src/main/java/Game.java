@@ -7,7 +7,7 @@ public class Game {
     // Зарегистрированные игроки
     ArrayList<Player> players = new ArrayList<>();
 
-    public void register(Player player) {
+    protected void register(Player player) {
 
         players.add(player);
 
